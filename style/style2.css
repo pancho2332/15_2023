@@ -60,7 +60,7 @@ p{
 input{
     border: 0;
     padding: 10px;
-    font-size: 10px;
+    font-size: 20px;
     margin: 5px;
     background-color: rgb(9, 147, 172);
 }
@@ -87,3 +87,36 @@ input::placeholder{
     outline: none;
     background-color: rgb(1, 48, 75);
 }
+
+#datos{
+   
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#body{
+    width: 600px;
+    height: 320px;
+    background-color: rgb(16, 77, 56);
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    margin: -25px 0 0 -25px;
+   
+    
+}
+#fecha{
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+    
+
