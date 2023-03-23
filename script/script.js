@@ -1,5 +1,5 @@
 let Nombre, correo, mensaje;
-let formulario = document.getElementById("form")
+let formulario = document.getElementById("form1")
 formulario.addEventListener("submit", (e)=>{
     e.preventDefault()
     leerdatos()
@@ -7,17 +7,17 @@ formulario.addEventListener("submit", (e)=>{
 
 function leerdatos() {
     Nombre = document.getElementById("Nombre").value
-    correo = document.getElementById("correo").value
+    correo = document.getElementById('correo').value
     mensaje = document.getElementById("textarea").value
     validardatos(Nombre, correo, mensaje)
     guardarlocalstorage(Nombre, correo, mensaje)
 }
-function validardatos(Nombre, correo, mensaje){
+function validardatos(Nombre, correo, mensaje) {
     if(Nombre.length==0 || correo.length==0 || mensaje.length==0){
 
         swal.fire({
             title: "error",
-            Text: "do you want to continue",
+            Text: 'do you want to continue',
             icon: "error" ,
             confirmbuttontext: "cool",
             iconcolor:"purple"

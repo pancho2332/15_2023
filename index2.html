@@ -21,44 +21,48 @@
     </header>
 
     <body>
-        <div id="body">
-        <div>
-            <div id="contenedor">
-                <p class="texto">propietario del vehiculo</p>
-                <input type="text" placeholder="propietario del vehiculo" id="modelo">
-            </div>
-        </div>
+        <form action="" id="form2">
+            <div id="body">
+                <div>
+                    <div id="contenedor">
+                        <p class="texto">propietario del vehiculo</p>
+                        <input type="text" placeholder="propietario del vehiculo" id="propietario">
+                    </div>
+                </div>
 
-        <div id="contenedor">
-            <p class="text">modelo del vehiculo</p>
-            <input type="text" placeholder="modelo del vehiculo">
-        </div>
+                <div id="contenedor">
+                    <p class="text">modelo del vehiculo</p>
+                    <input type="text" placeholder="modelo del vehiculo"  id="modelodelvehiculo">
+                </div>
 
-        <div id="datos">
-            <div id="placa">
-                <p class="text">placa</p>
-                <input type="text" class="placa" placeholder="NN-NN-LL">
-            </div>
-            <div>
-                <p class="text">tipo de vehiculo</p>
-                <input type="text" class="placa" placeholder="carro moto">
-            </div>
-        </div>
-        <div id="fecha">
-            <div>
-                <p class="text">fecha de entrega</p>
-                <input type="date" placeholder="dd/mm/aaaa">
-            </div>
-            <div>
-                <p class="text">hora de inicio</p>
-                <input type="time" placeholder="hh:mm">
-            </div>
-            <div>
-                <p class="text">cantidad de horas</p>
-                <input type="time" placeholder="cantidad">
-            </div>
-    </div>
-        <script src="./script/script.js"></script>
+                <div id="datos">
+                    <div id="placa">
+                        <p class="text">placa</p>
+                        <input type="text" class="placa" placeholder="NN-NN-LL" id="NN-NN-LL">
+                    </div>
+                    <div>
+                        <p class="text">tipo de vehiculo</p>
+                        <input type="text" class="placa" placeholder="carro moto" id="carromoto">
+                    </div>
+                </div>
+                <div id="fecha">
+                    <div>
+                        <p class="text">fecha de entrega</p>
+                        <input type="date" placeholder="dd/mm/aaaa" id="dd/mm/aaaa">
+                    </div>
+                    <div>
+                        <p class="text">hora de inicio</p>
+                        <input type="time" placeholder="hh:mm" id="hh:mm">
+                    </div>
+                    <div>
+                        <p class="text">cantidad de horas</p>
+                        <input type="time" placeholder="cantidad" id="cantidad">
+                    </div>
+                </div>
+              <button type="submit">Enviar</button>
+        </form>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./script/scritpt2.js"></script>
     </body>
 
 </html>
