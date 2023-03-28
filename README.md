@@ -1,5 +1,5 @@
 #  comandoGit
-##consulta 30 etiquetas de html
+## consulta 30 etiquetas de html
 
 1. body para el contenido
 2. head para la informacion sobre el document
